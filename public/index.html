@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enviar Imagem ou Texto pelo WhatsApp</title>
+  </head>
+  <body>
+    <h1>Enviar Imagem ou Texto pelo WhatsApp</h1>
+    <form id="sendImageForm" enctype="multipart/form-data">
+      <label for="number">Número:</label>
+      <input type="text" id="number" name="number" required /><br /><br />
+
+      <label for="message">Texto:</label>
+      <input type="text" id="message" name="message" /><br /><br />
+
+      <label for="image">Imagem:</label>
+      <input type="file" id="image" name="image" /><br /><br />
+
+      <label for="caption">Legenda:</label>
+      <input type="text" id="caption" name="caption" /><br /><br />
+
+      <button type="submit">Enviar</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

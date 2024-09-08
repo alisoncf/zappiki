@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+.wwebjs_auth/
+.wwebjs_cache/
+npm-debug.log
+yarn-error.log
+
+# Diretórios de cache
+.cache/
+.npm/
+
+# Ambiente local
+.env
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Outras pastas específicas do projeto
+dist/
+build/
+
